@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 600px;
+  height: 600px;
+}
+
+.column.horizontal img {
+  width: 100%;
+  max-height: 33.33%;
+  object-fit: cover;
+}
+
+.column.vertical img {
+  width: 100%;
+  max-height: 41.4%;
+  object-fit: cover;
+}
