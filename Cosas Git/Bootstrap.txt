@@ -1,0 +1,14 @@
+*https://react-bootstrap.netlify.app/docs/components/accordion
+
+/npm install react-bootstrap bootstrap
+
+package.json
+	dependencies{
+		"bootstrap": "4.6.0",
+		"react-bootstrap": "1.5.2",
+
+
+*index
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+- div classname="container"
